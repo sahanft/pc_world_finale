@@ -1,0 +1,111 @@
+.item-main-div {
+    position: absolute;
+    left: 5%;
+    top: 20%;
+    width: 90%;
+    height: 75%;
+    background-color: rgb(231, 231, 231);
+}
+
+.item-h3 {
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    font-size: larger;
+    color: #ff6600;
+}
+
+#itemId {
+    width: 30%;
+}
+
+.qty-lable {
+    position: absolute;
+    top: 3%;
+    left: 40%;
+}
+
+#qty {
+    width: 53%;
+    position: absolute;
+    left: 40%;
+    top: 8%;
+}
+
+#item_btn {
+    position: absolute;
+    top: 44.4%;
+}
+
+#itemTable {
+    position: absolute;
+    top: 65%;
+    left: 1%;
+    width: 98%;
+}
+
+#searchField3 {
+    position: absolute;
+    right: 4%;
+}
+
+#search3 {
+    position: absolute;
+    right: 23%;
+}
+
+.container{
+    width: fit-content;
+    height: auto;
+    background-color: #E5E5E5;
+    padding: 20px 5%;
+}
+
+.item1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col-lg-6{
+    width: 100%;
+}
+
+.btn-outline-success{
+    border: 1px solid #4c70de;
+    color: #0006ff;
+}
+
+.btn-outline-success:hover{
+    background-color: #4c70de;
+    border: 1px solid #0006ff;
+}
+
+.btn-outline-primary{
+    border: 1px solid #52B788;
+    color: #52B788;
+}
+
+.btn-outline-primary:hover{
+    background-color: #52B788;
+    border: 1px solid #52B788;
+}
+
+.btn-outline-danger{
+    border: 1px solid #FF5C8A;
+    color: #FF5C8A;
+}
+
+.btn-outline-danger:hover{
+    background-color: #FF5C8A;
+    border: 1px solid #FF5C8A;
+}
+
+.table-color>tr>th{
+    background-color: #4c70de;
+    color: #FFFFFF;
+}
+
+.table{
+    width: 700px;
+}
