@@ -1,4 +1,4 @@
-.order_details1{
+/* .order_details1{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -16,4 +16,96 @@
 
 #order-details-table{
     width: 1000px;
+} */
+
+
+.order_details1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#orderDetailsForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    background-color: #E5E5E5;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+#order-details-table {
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+/* Example styling for the table */
+.table-color>tr>th {
+    background-color: #4c70de;
+    color: #FFFFFF;
+}
+
+.table {
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px 0;
+}
+
+.card {
+    width: 100%;
+    max-width: 550px;
+    background-color: #E5E5E5;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 20px auto;
+}
+
+.btn-outline-success {
+    border: 1px solid #4c70de;
+    color: #0006ff;
+}
+
+.btn-outline-success:hover {
+    background-color: #4c70de;
+    border: 1px solid #0006ff;
+}
+
+.btn-outline-primary {
+    border: 1px solid #52B788;
+    color: #52B788;
+}
+
+.btn-outline-primary:hover {
+    background-color: #52B788;
+    border: 1px solid #52B788;
+}
+
+.btn-outline-danger {
+    border: 1px solid #FF5C8A;
+    color: #FF5C8A;
+}
+
+.btn-outline-danger:hover {
+    background-color: #FF5C8A;
+    border: 1px solid #FF5C8A;
+}
+
+.searchField {
+    width: 100%;
+    max-width: 300px;
+    margin: 30px auto;
+}
+
+.searchBtn {
+    margin: 30px 0;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: flex-end;
 }

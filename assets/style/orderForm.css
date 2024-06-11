@@ -1,4 +1,4 @@
-.order-main-div {
+ .order-main-div {
     position: absolute;
     width: 50%;
     height: 50%;
@@ -197,8 +197,7 @@
 
 .d-flex{
     justify-content: right;
-}
-
+} 
 
 /* ***************** Second Div Css ****************** */
 .order-2nd-div {
@@ -212,4 +211,142 @@
 
 .order-2nd-div>input {
     position: absolute;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.order-main-div {
+    width: 50%;
+    height: auto;
+    background-color: rgb(221, 221, 221);
+    margin: 20% auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.container {
+    width: fit-content;
+    height: auto;
+    background-color: #E5E5E5;
+    padding: 20px 5%;
+    height: auto;
+}
+
+.order1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+#order_id, #order_date, #customer_id1, #customer_name1, #total, #discount, 
+#sub_total, #Cash, #balance, #item_code1, #item_name1, #price1, #qty_on_hand, 
+#getQty, #order_btn, #order_item_btn {
+    width: calc(50% - 20px);
+    margin: 10px 0;
+}
+
+#order_btn, #order_item_btn {
+    width: auto;
+    margin: 20px;
+}
+
+#item-order-table {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.col-lg-6 {
+    width: 100%;
+}
+
+.btn-outline-success {
+    border: 1px solid #4c70de;
+    color: #0006ff;
+}
+
+.btn-outline-success:hover {
+    background-color: #4c70de;
+    border: 1px solid #0006ff;
+}
+
+.btn-outline-primary {
+    border: 1px solid #52B788;
+    color: #52B788;
+}
+
+.btn-outline-primary:hover {
+    background-color: #52B788;
+    border: 1px solid #52B788;
+}
+
+.btn-outline-danger {
+    border: 1px solid #FF5C8A;
+    color: #FF5C8A;
+}
+
+.btn-outline-danger:hover {
+    background-color: #FF5C8A;
+    border: 1px solid #FF5C8A;
+}
+
+.table-color > tr > th {
+    background-color: #4c70de;
+    color: #FFFFFF;
+}
+
+.table {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
+
+.card {
+    width: 550px;
+    background-color: #E5E5E5;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.searchField {
+    width: 300px;
+    margin: 30px;
+}
+
+.searchBtn {
+    margin: 30px;
+    margin-left: 1px;
+}
+
+.d-flex {
+    justify-content: right;
+}
+
+/* ***************** Second Div Css ****************** */
+/* .order-2nd-div {
+    width: 50%;
+    height: auto;
+    background-color: rgb(221, 221, 221);
+    margin: 20% auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order-2nd-div > input {
+    width: calc(50% - 20px);
+    margin: 10px 0;
+} */ 

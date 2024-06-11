@@ -1,10 +1,11 @@
-#navBar {
-    background-color: #007c0a !important; /* Add !important to override Bootstrap styles if needed */
+/* #navBar {
+    background-color: #007c0a !important; 
     position: relative;
+    height: 100px;
 }
-/* Optional: Change the text color of the navigation links */
+
 .navbar-nav .nav-link {
-    color: #bcffbc; /* Set the desired text color */
+    color: #bcffbc; 
     font-size: 22px;
 }
 
@@ -37,4 +38,134 @@
 }
 .navbar ul li a:hover {
     color: rgb(0, 255, 34);
+} */
+
+
+
+/* 
+#navBar {
+    background-color: #000000 !important; 
+    position: relative;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff; 
+    font-size: 18px; 
+    margin: 0 20px; 
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #ffffff; 
+    text-transform: uppercase;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #084200;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+    background: #84ff84; 
+}
+
+.navbar ul li a:hover {
+    color: #84ff84; 
+}
+
+.navbar ul li a:active {
+    color: #800080; 
+} */
+
+
+
+
+#navBar {
+    background-color: #000000 !important; /* Black background color */
+    position: relative;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Ensure the navbar links are centered */
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff; /* White text color */
+    font-size: 18px; /* Medium font size */
+    margin: 0 20px; /* Adjust margin between links */
+    display: flex;
+    align-items: center; /* Center the text vertically */
+    height: 100%; /* Ensure the height matches the navbar */
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    height: 100%; /* Ensure the height matches the navbar */
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #ffffff; /* White text color */
+    text-transform: uppercase;
+    display: flex;
+    align-items: center; /* Center the text vertically */
+    height: 100%; /* Ensure the height matches the navbar */
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #084200;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+    background: #84ff84; /* Light green underline on hover */
+}
+
+.navbar ul li a:hover {
+    color: #84ff84; /* Light green text color on hover */
+}
+
+/* .navbar ul li a:active {
+    color: #800080; 
+} */

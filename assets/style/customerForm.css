@@ -1,4 +1,4 @@
-.form-main-div {
+/* .form-main-div {
     position: absolute;
     left: 5%;
     top: 20%;
@@ -33,6 +33,7 @@
     position: absolute;
     top: 3%;
     left: 40%;
+    
 }
 
 #address {
@@ -111,4 +112,124 @@
 
 .customer-table-colour {
     color: #00620d;
+}
+
+.form-control address-form{
+width: 50px;
+} */
+
+
+
+.form-main-div {
+    
+    width: 90%;
+    margin: 20% auto;
+    padding: 20px;
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cust-h3 {
+    font-size: larger;
+    color: #ff6600;
+    margin-bottom: 20px;
+}
+
+#searchField2, #search2 {
+    margin: 10px;
+}
+
+#searchField2 {
+    align-self: flex-end;
+}
+
+#search2 {
+    align-self: flex-start;
+}
+
+#customerId {
+    width: 30%;
+    margin: 10px 0;
+}
+
+.customer-name-lable {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+#address, #mobile, #customerName {
+    width: 100%;
+    margin: 10px 0;
+}
+
+#customerName {
+    width: 53%;
+}
+
+#customerTable {
+    width: 98%;
+    margin: 20px 0;
+}
+
+.container {
+    width: fit-content;
+    height: auto;
+    background-color: #ffffff;
+    padding: 20px 5%;
+    margin: auto;
+}
+
+.customer1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col-lg-6 {
+    width: 100%;
+}
+
+.btn-outline-success {
+    border: 1px solid #4c70de;
+    color: #0006ff;
+}
+
+.btn-outline-success:hover {
+    background-color: #001b6a;
+    border: 1px solid #6a6eff;
+}
+
+.btn-outline-primary {
+    border: 1px solid #52B788;
+    color: #52B788;
+}
+
+.btn-outline-primary:hover {
+    background-color: #52B788;
+    border: 1px solid #52B788;
+}
+
+.btn-outline-danger {
+    border: 1px solid #ff0000;
+    color: #ff0000;
+}
+
+.btn-outline-danger:hover {
+    background-color: #ff0000;
+    border: 1px solid #ff0000;
+}
+
+.table-color > tr > th {
+    background-color: #00620d;
+    color: #005e10;
+}
+
+.customer-table-colour {
+    color: #00620d;
+}
+
+.form-control.address-form {
+    width: 50px;
 }

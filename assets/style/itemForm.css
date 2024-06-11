@@ -1,4 +1,4 @@
-.item-main-div {
+/* .item-main-div {
     position: absolute;
     left: 5%;
     top: 20%;
@@ -108,4 +108,121 @@
 
 .table{
     width: 700px;
+} */
+
+
+
+.item-main-div {
+    width: 90%;
+    margin: 20% auto;
+    height: auto;
+    background-color: rgb(231, 231, 231);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-h3 {
+    font-size: larger;
+    color: #ff6600;
+    margin-bottom: 20px;
+    align-self: flex-start;
+}
+
+#itemId {
+    width: 30%;
+    margin: 10px 0;
+}
+
+.qty-label {
+    margin: 10px 0;
+    font-weight: bold;
+    align-self: center;
+}
+
+#qty {
+    width: 53%;
+    margin: 10px 0;
+}
+
+#item_btn {
+    margin: 20px 0;
+    align-self: center;
+}
+
+#itemTable {
+    width: 98%;
+    margin: 20px 0;
+}
+
+#searchField3, #search3 {
+    margin: 10px;
+}
+
+#searchField3 {
+    align-self: flex-end;
+}
+
+#search3 {
+    align-self: flex-start;
+}
+
+.container {
+    width: fit-content;
+    height: auto;
+    background-color: #E5E5E5;
+    padding: 20px 5%;
+    margin: auto;
+}
+
+.item1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col-lg-6 {
+    width: 100%;
+}
+
+.btn-outline-success {
+    border: 1px solid #4c70de;
+    color: #0006ff;
+}
+
+.btn-outline-success:hover {
+    background-color: #4c70de;
+    border: 1px solid #0006ff;
+}
+
+.btn-outline-primary {
+    border: 1px solid #52B788;
+    color: #52B788;
+}
+
+.btn-outline-primary:hover {
+    background-color: #52B788;
+    border: 1px solid #52B788;
+}
+
+.btn-outline-danger {
+    border: 1px solid #FF5C8A;
+    color: #FF5C8A;
+}
+
+.btn-outline-danger:hover {
+    background-color: #FF5C8A;
+    border: 1px solid #FF5C8A;
+}
+
+.table-color > tr > th {
+    background-color: #4c70de;
+    color: #FFFFFF;
+}
+
+.table {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
 }
