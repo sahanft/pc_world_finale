@@ -215,7 +215,22 @@
     position: absolute;
 } 
 
+#searchField{
 
+    position: absolute;
+    top: 80px;
+    left:550px ;
+
+}
+
+#search{
+
+    
+    position: absolute;
+    top: 80px;
+    left: 901px;
+
+}
 
 
 

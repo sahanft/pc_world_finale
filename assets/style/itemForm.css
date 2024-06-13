@@ -112,6 +112,11 @@
 
 
 
+
+
+
+
+
 .item-main-div {
     position: absolute;
     top: 0;
@@ -127,7 +132,7 @@
 
 .item-h3 {
     font-size: larger;
-    color: #ff6600;
+    /* color: #0000; */
     margin-bottom: 20px;
     align-self: flex-start;
 }

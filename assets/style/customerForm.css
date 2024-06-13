@@ -118,6 +118,20 @@
 width: 50px;
 } */
 
+/* customerForm.css */
+
+
+
+
+body {
+    background-image: url('/assets/image/img\ 01.jpg'); /* Update this path to your image location */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center center; /* Centers the image */
+    height: 100vh; /* Ensures the body takes the full viewport height */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+}
 
 
 .form-main-div {
@@ -135,7 +149,7 @@ width: 50px;
 
 .cust-h3 {
     font-size: larger;
-    color: #ff6600;
+    /* color: #ff6600; */
     margin-bottom: 20px;
 }
 
@@ -240,3 +254,9 @@ width: 50px;
 .form-control.address-form {
     width: 50px;
 }
+
+
+
+
+
+
