@@ -55,6 +55,8 @@
     width: 100%;
     max-width: 1000px;
     margin: 20px 0;
+    position: absolute;
+    top: 301px;
 }
 
 .card {

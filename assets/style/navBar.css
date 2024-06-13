@@ -105,12 +105,20 @@
 
 
 #navBar {
-    background-color: #000000 !important; /* Black background color */
+    background-color: #686D76 !important; /* Black background color */
     position: relative;
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+#pc_logo{
+    width: 200px;
+    height: 110px;
+    position: absolute;
+    left: 40px;
+    top: -5px;
+
 }
 
 /* Ensure the navbar links are centered */
@@ -128,6 +136,8 @@
     display: flex;
     align-items: center; /* Center the text vertically */
     height: 100%; /* Ensure the height matches the navbar */
+    position: relative;
+    top: 20px;
 }
 
 .navbar ul li {
@@ -160,6 +170,8 @@
 .navbar ul li:hover::after {
     width: 100%;
     background: #84ff84; /* Light green underline on hover */
+    position: absolute;
+    top: 40px;
 }
 
 .navbar ul li a:hover {

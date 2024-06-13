@@ -113,6 +113,8 @@
 
 
 .item-main-div {
+    position: absolute;
+    top: 0;
     width: 90%;
     margin: 20% auto;
     height: auto;
@@ -154,6 +156,9 @@
 #itemTable {
     width: 98%;
     margin: 20px 0;
+    position: absolute;
+    top: 231px;
+    left: 200px;
 }
 
 #searchField3, #search3 {

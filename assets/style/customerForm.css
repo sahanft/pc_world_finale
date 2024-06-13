@@ -121,7 +121,9 @@ width: 50px;
 
 
 .form-main-div {
-    
+
+    position: absolute;
+    top: -80px;
     width: 90%;
     margin: 20% auto;
     padding: 20px;
@@ -171,6 +173,10 @@ width: 50px;
 #customerTable {
     width: 98%;
     margin: 20px 0;
+    position: absolute;
+    top: 301px;
+    left: 200px;
+    /* margin-top: 50px; */
 }
 
 .container {
@@ -179,6 +185,7 @@ width: 50px;
     background-color: #ffffff;
     padding: 20px 5%;
     margin: auto;
+    
 }
 
 .customer1 {

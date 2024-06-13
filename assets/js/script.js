@@ -149,7 +149,11 @@ $("#home_page").eq(0).on('click', function (){
     $("#customer_page").eq(0).css("color","white");
     $("#item_page").eq(0).css("color", "white");
     $("#order_page").eq(0).css("color","white");
+    $("#order_details_page").eq(0).css("color","white");
+
 })
+
+
 
 $("#customer_page").eq(0).on('click', function (){
     myFunction1();
@@ -157,6 +161,8 @@ $("#customer_page").eq(0).on('click', function (){
     $("#customer_page").eq(0).css("color","black");
     $("#item_page").eq(0).css("color", "white");
     $("#order_page").eq(0).css("color","white");
+    $("#order_details_page").eq(0).css("color","white");
+
 })
 
 $("#item_page").eq(0).on('click', function (){
@@ -165,6 +171,8 @@ $("#item_page").eq(0).on('click', function (){
     $("#customer_page").eq(0).css("color","white");
     $("#item_page").eq(0).css("color", "black");
     $("#order_page").eq(0).css("color","white");
+    $("#order_details_page").eq(0).css("color","white");
+
 })
 
 $("#order_page").eq(0).on('click', function (){
@@ -173,6 +181,8 @@ $("#order_page").eq(0).on('click', function (){
     $("#customer_page").eq(0).css("color","white");
     $("#item_page").eq(0).css("color", "white");
     $("#order_page").eq(0).css("color","black");
+    $("#order_details_page").eq(0).css("color","white");
+
 })
 
 $("#order_details_page").eq(0).on('click', function (){
@@ -181,4 +191,6 @@ $("#order_details_page").eq(0).on('click', function (){
     $("#customer_page").eq(0).css("color","white");
     $("#item_page").eq(0).css("color", "white");
     $("#order_page").eq(0).css("color","white");
+    $("#order_details_page").eq(0).css("color","black");
+
 })

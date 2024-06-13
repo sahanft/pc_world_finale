@@ -169,6 +169,8 @@
 
 .table{
     width: 500px;
+    position: absolute;
+    left: 280px;
 }
 
 .card{
